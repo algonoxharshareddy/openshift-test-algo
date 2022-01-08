@@ -1,0 +1,953 @@
+{
+  "algonox_detect_template": {
+    "host": "detection_app",
+    "port": "5011"
+  },
+  "get_merge_tables": {
+    "host": "threewaymatchapi",
+    "port": "80"
+  },
+  "merge_tables": {
+    "host": "threewaymatchapi",
+    "port": "80"
+  },
+  "match_all": {
+    "host": "threewaymatchapi",
+    "port": "80"
+  },
+  "index": {
+    "host": "businessrules",
+    "port": "80"
+  },
+  "get_data": {
+    "host": "businessrules",
+    "port": "80"
+  },
+  "assign": {
+    "host": "businessrules",
+    "port": "80"
+  },
+  "save_data": {
+    "host": "businessrules",
+    "port": "80"
+  },
+  "date_transform": {
+    "host": "businessrules",
+    "port": "80"
+  },
+  "partial_match": {
+    "host": "businessrules",
+    "port": "80"
+  },
+  "rule_builder_data": {
+    "host": "businessrules",
+    "port": "80"
+  },
+  "execute_business_rules": {
+    "host": "businessrules",
+    "port": "80"
+  },
+  "chain_group_data": {
+    "host": "businessrules",
+    "port": "80"
+  },
+  "get_rules_data": {
+    "host": "businessrules",
+    "port": "80"
+  },
+  "get_rule_from_id": {
+    "host": "businessrules",
+    "port": "80"
+  },
+  "execute_camunda_business_rules": {
+    "host": "businessrules",
+    "port": "80"
+  },
+  "check_function_builder": {
+    "host": "businessrules",
+    "port": "80"
+  },
+  "run_business_rule": {
+    "host": "businessrules",
+    "port": "80"
+  },
+  "get_ui_rules": {
+    "host": "businessrules",
+    "port": "80"
+  },
+  "login": {
+    "host": "userauthapi",
+    "port": "80"
+  },
+  "saml_login": {
+    "host": "userauthapi",
+    "port": "80"
+  },
+  "saml_acs": {
+    "host": "userauthapi",
+    "port": "80"
+  },
+  "saml_logout": {
+    "host": "userauthapi",
+    "port": "80"
+  },
+  "saml_sls": {
+    "host": "userauthapi",
+    "port": "80"
+  },
+  "authentication_type": {
+    "host": "userauthapi",
+    "port": "80"
+  },
+  "logout": {
+    "host": "userauthapi",
+    "port": "80"
+  },
+  "metadata": {
+    "host": "userauthapi",
+    "port": "80"
+  },
+  "verify_session": {
+    "host": "userauthapi",
+    "port": "80"
+  },
+  "change_password": {
+    "host": "userauthapi",
+    "port": "80"
+  },
+  "change_status": {
+    "host": "userauthapi",
+    "port": "80"
+  },
+  "send_email": {
+    "host": "emailtriggerapi",
+    "port": "80"
+  },
+  "get_template": {
+    "host": "emailtriggerapi",
+    "port": "80"
+  },
+  "get_mcr_data": {
+    "host": "reportspunchcard",
+    "port": "80"
+  },
+  "get_annex2_data": {
+    "host": "reportspunchcard",
+    "port": "80"
+  },
+  "get_schemes_launched": {
+    "host": "reportspunchcard",
+    "port": "80"
+  },
+  "reply": {
+    "host": "emailtriggerapi",
+    "port": "80"
+  },
+  "report_preview": {
+    "host": "reportspunchcard",
+    "port": "80"
+  },
+  "fetch_datasets": {
+    "host": "reportspunchcard",
+    "port": "80"
+  },
+  "fetch_parents": {
+    "host": "reportspunchcard",
+    "port": "80"
+  },
+  "fetch_routes": {
+    "host": "reportspunchcard",
+    "port": "80"
+  },
+  "execute": {
+    "host": "reportspunchcard",
+    "port": "80"
+  },
+  "fetch_filters": {
+    "host": "reportspunchcard",
+    "port": "80"
+  },
+  "save_filter": {
+    "host": "reportspunchcard",
+    "port": "80"
+  },
+  "save_configuration": {
+    "host": "reportspunchcard",
+    "port": "80"
+  },
+  "fetch_reports": {
+    "host": "reportspunchcard",
+    "port": "80"
+  },
+  "fetch_report_data": {
+    "host": "reportspunchcard",
+    "port": "80"
+  },
+  "publish_flag": {
+    "host": "reportspunchcard",
+    "port": "80"
+  },
+  "reports_punch_card": {
+    "host": "reportspunchcard",
+    "port": "80"
+  },
+  "email_monitor_api": {
+    "host": "emailmonitorapi",
+    "port": "80"
+  },
+  "get_email_chain": {
+    "host": "emailmonitorapi",
+    "port": "80"
+  },
+  "move_to_case": {
+    "host": "emailmonitorapi",
+    "port": "80"
+  },
+  "transact_lock": {
+    "host": "controltransactions",
+    "port": "80"
+  },
+  "complete_task": {
+    "host": "camundaapi",
+    "port": "80"
+  },
+  "update_queue": {
+    "host": "camundaapi",
+    "port": "80"
+  },
+  "update_state": {
+    "host": "camundaapi",
+    "port": "80"
+  },
+  "hit_safe_state": {
+    "host": "camundaapi",
+    "port": "80"
+  },
+  "delete_queue": {
+    "host": "camundaapi",
+    "port": "80"
+  },
+  "get_network_xml": {
+    "host": "camundaapi",
+    "port": "80"
+  },
+  "send_email_auto": {
+    "host": "emailtrigger",
+    "port": "80"
+  },
+  "deploy_workflow_from_db": {
+    "host": "camundaapi",
+    "port": "80"
+  },
+  "folder_monitor": {
+    "host": "foldermonitor",
+    "port": "80"
+  },
+  "create_case_id": {
+    "host": "foldermonitor",
+    "port": "80"
+  },
+  "file_thru_upload": {
+    "host": "foldermonitor",
+    "port": "80"
+  },
+  "generate_case": {
+    "host": "foldermonitor",
+    "port": "80"
+  },
+  "archive_folder_structure": {
+    "host": "foldermonitor",
+    "port": "80"
+  },
+  "get_file_blobs": {
+    "host": "foldermonitor",
+    "port": "80"
+  },
+  "download_report": {
+    "host": "reportsapi",
+    "port": "80"
+  },
+  "database_upload": {
+    "host": "databaseingestion",
+    "port": "80"
+  },
+  "database_ocr": {
+    "host": "visiondatabase",
+    "port": "5555"
+  },
+  "get_audit": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "check_if_document_uploaded": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "check_first_time": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "cover_letter_gen": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "approved_quota_gen": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "distr_det_doc_gen": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "po_gen": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "transaction_id_gen": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "queue_1": {
+    "host": "camundaapi",
+    "port": "80"
+  },
+  "queue_2": {
+    "host": "camundaapi",
+    "port": "80"
+  },
+  "queue_3": {
+    "host": "camundaapi",
+    "port": "80"
+  },
+  "queue_4": {
+    "host": "camundaapi",
+    "port": "80"
+  },
+  "get_search_result": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "get_file_count": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "get_fields_ocr": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "get_folder": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "move_to_verify": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "get_queue_components": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "get_recon_table_data": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "get_recon_secondary_table": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "clear_cache": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "get_fields": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "get_file_paths": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "refresh_fields": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "get_queue": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "get_files": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "get_queue_with_filters": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "builder_get_queue": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "random_true": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "get_dropdowns": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "get_queues": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "unlock_case": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "get_display_fields": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "get_case_file": {
+    "host": "filesplitterapi",
+    "port": "80"
+  },
+  "rotate_file": {
+    "host": "trainingapi",
+    "port": "80"
+  },
+  "execute_button_function": {
+    "host": "buttonfunctions",
+    "port": "80"
+  },
+  "upload_file": {
+    "host": "buttonfunctions",
+    "port": "80"
+  },
+  "randm_submit": {
+    "host": "buttonfunctions",
+    "port": "80"
+  },
+  "daily_update": {
+    "host": "buttonfunctions",
+    "port": "80"
+  },
+  "monthly_update": {
+    "host": "buttonfunctions",
+    "port": "80"
+  },
+  "fetch_file_for_image": {
+    "host": "saasapis",
+    "port": "80"
+  },
+  "custom_fields_config": {
+    "host": "saasapis",
+    "port": "80"
+  },
+  "delete_file": {
+    "host": "buttonfunctions",
+    "port": "80"
+  },
+  "ocr_vision": {
+    "host": "visionapi",
+    "port": "80"
+  },
+  "get_ocr_data": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "get_blob_data": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "reset_data": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "reset_data_cg": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "replace_file": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "update_queue_counts": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "get_upload_files": {
+    "host": "foldermonitor",
+    "port": "80"
+  },
+  "upload_selected_files": {
+    "host": "foldermonitor",
+    "port": "80"
+  },
+  "extract_for_template": {
+    "host": "extractionapi",
+    "port": "80"
+  },
+  "extraction": {
+    "host": "extractionapi",
+    "port": "80"
+  },
+  "predict_field": {
+    "host": "extractionapi",
+    "port": "80"
+  },
+  "show_decision_tree": {
+    "host": "businessrulesapi",
+    "port": "80"
+  },
+  "open_tabs": {
+    "host": "businessrulesapi",
+    "port": "80"
+  },
+  "get_ds1_data": {
+    "host": "businessrulesapi",
+    "port": "80"
+  },
+  "get_cases": {
+    "host": "trainingapi",
+    "port": "80"
+  },
+  "save_changes": {
+    "host": "savechanges",
+    "port": "80"
+  },
+  "field_prediction": {
+    "host": "trainingapi",
+    "port": "80"
+  },
+  "testFields": {
+    "host": "trainingapi",
+    "port": "80"
+  },
+  "train": {
+    "host": "trainingapi",
+    "port": "80"
+  },
+  "retrain": {
+    "host": "trainingapi",
+    "port": "80"
+  },
+  "force_template": {
+    "host": "trainingapi",
+    "port": "80"
+  },
+  "get_ocr_data_training": {
+    "host": "trainingapi",
+    "port": "80"
+  },
+  "predict_with_ui_data": {
+    "host": "tableapi",
+    "port": "80"
+  },
+  "cluster": {
+    "host": "clustering",
+    "port": "80"
+  },
+
+  "produce": {
+    "host": "producer",
+    "port": "6969"
+  },
+  "consume": {
+    "host": "consumer",
+    "port": "6968"
+  },
+  "records_completed_stat": {
+    "host": "statsapis",
+    "port": "80"
+  },
+  "queue_counts_stat": {
+    "host": "statsapis",
+    "port": "80"
+  },
+  "invoice_count_time": {
+    "host": "statsapis",
+    "port": "80"
+  },
+  "user_aht_count": {
+    "host": "statsapis",
+    "port": "80"
+  },
+  "red_flags_stat": {
+    "host": "statsapis",
+    "port": "80"
+  },
+  "invoices_completed": {
+    "host": "statsapis",
+    "port": "80"
+  },
+  "invoice_rejected": {
+    "host": "statsapis",
+    "port": "80"
+  },
+  "template_exception": {
+    "host": "statsapis",
+    "port": "80"
+  },
+  "escalation": {
+    "host": "statsapis",
+    "port": "80"
+  },
+  "detection_accuracy": {
+    "host": "statsapis",
+    "port": "80"
+  },
+  "avg_handling_time": {
+    "host": "statsapis",
+    "port": "80"
+  },
+  "pass_percentage": {
+    "host": "statsapis",
+    "port": "80"
+  },
+  "invoices_ingested": {
+    "host": "statsapis",
+    "port": "80"
+  },
+  "get_stats_cards": {
+    "host": "stats",
+    "port": "80"
+  },
+  "flip_card": {
+    "host": "stats",
+    "port": "80"
+  },
+  "chart_data": {
+    "host": "stats",
+    "port": "80"
+  },
+  "string_data": {
+    "host": "stats",
+    "port": "80"
+  },
+  "text_data": {
+    "host": "stats",
+    "port": "80"
+  },
+  "generate_reports": {
+    "host": "reportsapi",
+    "port": "80"
+  },
+  "update_addon_table": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "modify_user": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "modify_user_test": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "show_existing_users": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "show_existing_users_test": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "group_attributes": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "group_attributes_new": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "attribute_definition": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "group_definition": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "get_action_table": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "queue_definition": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "show_existing_reports": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "modify_reports": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "download_excel_blob": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "bank_master_trigger": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "bot_button_trigger_accept": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "get_queue_definition": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "builder_group_definition": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "upload_excel_blob": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "get_tenant_info": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "builder_stats": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "builder_queues": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+
+  "builder_fields": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "builder_merged_workflow": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "builder_queues_dropdown": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "upload_master_blob": {
+    "host": "masterupload",
+    "port": "80"
+  },
+  "download_master_blob": {
+    "host": "masterupload",
+    "port": "80"
+  },
+  "get_master_data": {
+    "host": "masterupload",
+    "port": "80"
+  },
+  "edit_master_data": {
+    "host": "masterupload",
+    "port": "80"
+  },
+  "elastic_search_test": {
+    "host": "masterupload",
+    "port": "80"
+  },
+  "update_master_data": {
+    "host": "masterupload",
+    "port": "80"
+  },
+  "plumb": {
+    "host": "pdfplumberapi",
+    "port": "5022"
+  },
+  "add_file": {
+    "host": "addfile",
+    "port": "5010"
+  },
+  "delete_row_not_in_db": {
+    "host": "logstash_api",
+    "port": "5001"
+  },
+  "field_accuracy_report": {
+    "host": "reportsapi",
+    "port": "80"
+  },
+  "template_accuracy_report": {
+    "host": "reportsapi",
+    "port": "80"
+  },
+  "excel_export_api": {
+    "host": "excelexportapi",
+    "port": "80"
+  },
+  "create_table": {
+    "host": "masterupload",
+    "port": "80"
+  },
+  "transaction_master": {
+    "host": "masterupload",
+    "port": "80"
+  },
+  "get_field_dropdown": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "builder_apps": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "generate_json": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "get_tenant_list": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "database_from_sql": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "save_login_type": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "get_user_task": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+
+  "load_workflow": {
+    "host": "workflowmanagement",
+    "port": "80"
+  },
+  "save_workflow": {
+    "host": "workflowmanagement",
+    "port": "80"
+  },
+  "show_template": {
+    "host": "transactionmaster",
+    "port": "80"
+  },
+  "create_transaction_master": {
+    "host": "transactionmaster",
+    "port": "80"
+  },
+  "builder_components": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "get_group_attributes": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "ace_ux": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "builder_cascading_group": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "database_export_configuration": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "biz_rules_tree": {
+    "host": "usermanagement",
+    "port": "80"
+  },
+  "generate_case_chemical": {
+    "host": "foldermonitor",
+    "port": "80"
+  },
+  "get_chemicals": {
+    "host": "foldermonitor",
+    "port": "80"
+  },
+  "get_products": {
+    "host": "foldermonitor",
+    "port": "80"
+  },
+  "append_sub_po": {
+    "host": "foldermonitor",
+    "port": "80"
+  },
+  "generate_parent_case": {
+    "host": "saasapis",
+    "port": "80"
+  },
+  "pdf_plumber_api": {
+    "host": "saasapis",
+    "port": "80"
+  },
+  "notifications": {
+    "host": "saasapis",
+    "port": "80"
+  },
+  "pdf_classify": {
+    "host": "saasapis",
+    "port": "80"
+  },
+  "userauth_api_health_check": {
+    "host": "userauthapi",
+    "port": "80"
+  },
+  "queue_api_health_check": {
+    "host": "queueapi",
+    "port": "80"
+  },
+  "camunda_api_health_check": {
+    "host": "camundaapi",
+    "port": "80"
+  },
+  "folder_monitor_health_check": {
+    "host": "foldermonitor",
+    "port": "80"
+  },
+  "saas_apis_health_check": {
+    "host": "saasapis",
+    "port": "80"
+  },
+  "pdf_plumber_api_health_check": {
+    "host": "pdfplumberapi",
+    "port": "5022"
+  },
+  "algonox_detect_template_health_check": {
+    "host": "detection_app",
+    "port": "5011"
+  },
+  "extraction_api_health_check": {
+    "host": "extractionapi",
+    "port": "80"
+  },
+  "training_api_health_check": {
+    "host": "trainingapi",
+    "port": "80"
+  },
+  "button_functions_health_check": {
+    "host": "buttonfunctions",
+    "port": "80"
+  },
+  "save_changes_health_check": {
+    "host": "savechanges",
+    "port": "80"
+  },
+  "reports_api_health_check": {
+    "host": "reportsapi",
+    "port": "80"
+  },
+  "email_monitor_api_health_check": {
+    "host": "emailmonitorapi",
+    "port": "80"
+  },
+  "email_trigger_api_health_check": {
+    "host": "emailtriggerapi",
+    "port": "80"
+  },
+  "business_rules_api_health_check": {
+    "host": "businessrules",
+    "port": "80"
+  }
+}

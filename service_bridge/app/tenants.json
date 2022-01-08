@@ -1,0 +1,7 @@
+{
+    "tenants":{
+        "acewns.com" : "wns",
+        "acecg.com" : "cg",
+        "acedrl.com" : "drl"
+    }
+}
