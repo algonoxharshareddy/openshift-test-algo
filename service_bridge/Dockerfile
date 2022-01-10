@@ -1,4 +1,4 @@
-FROM apache_base
+FROM harshareddy196/apache_base:latest
 
 # Copy over the apache configuration file and enable the site
 COPY ./service_bridge.conf /etc/apache2/sites-available/service_bridge.conf
